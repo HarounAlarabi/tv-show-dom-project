@@ -1,12 +1,36 @@
+body{
+  background-color: rgb(254, 254, 254);
+}
+.searchBar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 50px;
+  width: 90%;
+  padding: 40px 30px 20px 30px;
+  border-bottom: 3px solid gray;
+  margin: 0px auto;
+  background-color:rgb(255, 255, 255);
+
+
+
+}
+#drop{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.searchBar input {
+  height: 30px;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
 #root {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
   justify-content: space-evenly;
-  padding: 50px;
-
-
-
+  padding: 20px 50px;
 }
 #root>div{
   display: flex;
@@ -44,4 +68,9 @@ img{
 }
 #root>div >p{
   text-align: left;
+}
+.dropDown{
+  height: 35px;
+
+  margin: 0px 10px;
 }
