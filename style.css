@@ -13,7 +13,9 @@ body{
   border-bottom: 3px solid gray;
 
   background-color:rgb(200, 167, 167);
-  position: fixed;
+  /*position: fixed;*/
+  margin-top: 0px;
+  margin-bottom: 20px;
 
 
 
@@ -33,7 +35,7 @@ body{
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
   justify-content: space-evenly;
-  padding: 200px 50px;
+  padding: 100px 50px;
 }
 #root>div{
   display: flex;
@@ -85,5 +87,50 @@ img{
   display: none;
   padding: 5px;
   border-radius: 20px;
-  
+
+}
+#listShow{
+  display:grid;
+  grid-template-columns: 1fr;
+
+}
+
+#listShow > div{
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid gray;
+  box-shadow: 1px 1px 2px ;
+  border-radius: 10px;
+  height: 300px;
+  padding: 30px;
+  margin: 30px 100px;
+
+}
+#listShow > div > h2{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#listShow > div > div{
+  display:flex;
+  gap: 40px;
+}
+#listShow > div > div>img{
+  width: auto;
+  height: 220px;
+}
+#listShow > div > div > p{
+  width: 700px;
+}
+.side{
+  width: 200px;
+  position: relative;
+
+  padding: 20px;
+  margin-left: 70px;
+  border: 0px solid gray;
+  box-shadow: 1px 1px 2px ;
+  border-radius: 10px;
+
 }
